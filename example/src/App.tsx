@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import ReactNativeButtonsModule, { Counter } from 'react-native-buttons'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(ReactNativeButtonsModule)
   })
 
   return <Counter />
